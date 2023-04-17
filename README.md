@@ -10,7 +10,7 @@ Django 4.2
 
 MySql
 
-#Getting starting:
+# Getting starting:
 
 1.- Git clone 
 2.- From windows run:
