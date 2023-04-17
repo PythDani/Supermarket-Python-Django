@@ -7,13 +7,13 @@
 
 body {
 
-    background-color: #000000
+    background-color: #E9E9EA
 }
 
 .navbar-ppl {
 
     background-color: #1D2226;
-    font-size: 22px;
+    font-size: 10px;
     color: #E9E9EA;
     font: bold;
 
@@ -39,3 +39,31 @@ body {
 
 
 } 
+
+.home {
+
+    background-color: #1D2226;
+    margin-top: 20px;
+    font: bold;
+    color: #E9E9EA;
+    font-size: 10px;
+
+
+}
+
+.nosotros {
+
+    background-color: #1D2226;
+    margin-top: 20px;
+    font: bold;
+    color: #E9E9EA;
+    font-size: 10px;
+
+
+
+} 
+
+.nosotros-sc {
+
+    font-size: 10px;
+}

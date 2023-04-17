@@ -1,5 +1,16 @@
 {% extends "products/base.html" %}
 {% block titulo %} About us {% endblock %}
 {% block contenido %} 
-<h1>Seccion de nosotros</h1>
+<div class="nosotros">
+    <div class="container">
+        <div class="nosotros-sc">
+            <h2 class="display-3">Vision: Nos visualizamos como una empresa con gran posicionamiento en el mercado en este 2023.</h2>
+            <p class="lead">Ingresar Productos</p>
+            <hr class="my-2">
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="{% url 'products' %}" role="button">Ver Productos</a>
+            </p>
+        </div>
+    </div>
+</div>
 {% endblock %}

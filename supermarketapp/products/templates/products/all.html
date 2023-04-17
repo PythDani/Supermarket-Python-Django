@@ -3,7 +3,7 @@
 {% block contenido %}
 <h1>Lista de Productos</h1>
 <div class="card-header">
-  <a name="" id="" href="#" class="btn btn-success" role="button">Agregar nuevo Producto</a>
+  <a name="" id="" href="{% url 'crear' %}" class="btn btn-success" role="button">Agregar nuevo Producto</a>
 </div>
   
   {% if products_list %} 
@@ -12,8 +12,9 @@
           <tr>
             <th scope="col">Id</th>
             <th scope="col">Precio</th>
-            <th scope="col">nombre</th>
-            <th scope="col">Editar | Borrar </th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Editar</th>
+            <th scope="col">Borrar</th>
           </tr>
         </thead>
         <tbody>
@@ -23,9 +24,11 @@
                   <td>{{ product.precio }}</td>
                   <td>{{ product.nombre_producto }}</td>
                   <td>
-                    <a name="" id="" class="btn btn-info" href="#" role="button">Editar</a>
+                    <a name="" id="" class="btn btn-info" href="#" role="button">Editar</a>                   
+                  </td>
+                  <td>
                     <a name="" id="" class="btn btn-danger" href="#" role="button">Borrar</a>
-                </td>                
+                  </td>                
                 </tr>  
           {% endfor %}
       </table>

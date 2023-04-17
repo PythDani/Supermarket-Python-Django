@@ -3,7 +3,18 @@
 {% block contenido %} 
 
 
-<h1>Home</h1>
+<div class="home">
+    <div class="container">
+        <div class="">
+            <h2 class="display-3">Bienvenidos a nuestro supermercado donde encontrarás productos de tu agrado!</h2>
+            <p class="lead">Ingresar Productos</p>
+            <hr class="my-2">
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="{% url 'products' %}" role="button">Empezar</a>
+            </p>
+        </div>
+    </div>
+</div>
 
 {% endblock %}
 
