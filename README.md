@@ -13,6 +13,7 @@ MySql
 # Getting starting:
 
 1.- Git clone 
+2. CREATE DATABASE "supermercado" 
 2.- From windows run:
   py manage.py runserver
 3.-Open broswe en path http://127.0.0.1:8000/supermarket/
