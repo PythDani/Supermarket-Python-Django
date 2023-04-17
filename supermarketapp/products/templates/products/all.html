@@ -1,0 +1,35 @@
+{% extends "products/base.html" %}
+{% block titulo %} Books List {% endblock %}
+{% block contenido %}
+<h1>Lista de Productos</h1>
+<div class="card-header">
+  <a name="" id="" href="#" class="btn btn-success" role="button">Agregar nuevo Producto</a>
+</div>
+  
+  {% if products_list %} 
+      <table class="table"> 
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Precio</th>
+            <th scope="col">nombre</th>
+            <th scope="col">Editar | Borrar </th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for product in products_list  %}
+                <tr>                 
+                  <td>{{ product.id }}</td>
+                  <td>{{ product.precio }}</td>
+                  <td>{{ product.nombre_producto }}</td>
+                  <td>
+                    <a name="" id="" class="btn btn-info" href="#" role="button">Editar</a>
+                    <a name="" id="" class="btn btn-danger" href="#" role="button">Borrar</a>
+                </td>                
+                </tr>  
+          {% endfor %}
+      </table>
+  {% else %}
+      <p>No products availables</p>
+  {% endif %}
+{% endblock %}

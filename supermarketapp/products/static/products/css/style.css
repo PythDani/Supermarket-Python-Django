@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+        
+}
+
+body {
+
+    background-color: #000000
+}
+
+.navbar-ppl {
+
+    background-color: #1D2226;
+    font-size: 22px;
+    color: #E9E9EA;
+    font: bold;
+
+
+}
+
+.container-products {
+
+    background-color: #1D2226;
+    margin-top: 20px;
+    font: bold;
+    color: #E9E9EA;
+    
+
+
+}
+
+
+.table {
+
+    font: bold;
+    color: #E9E9EA;
+
+
+} 
